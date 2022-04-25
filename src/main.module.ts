@@ -51,6 +51,7 @@ server.listen(3080, () => {
     console.log(`Server started on port ${server.address().port} :)`);
 });
 
+console.log('Hey this is naveen');
 
 function handleRequest(request: any) {
     let user: any = {};
